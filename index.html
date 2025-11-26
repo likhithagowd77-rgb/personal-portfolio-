@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M. Likhitha | Portfolio</title>
+
+    <!-- AOS animations -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2 class="logo">Likhitha</h2>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1 data-aos="fade-down" data-aos-duration="1200">Hi, I'm <span class="highlight">M. Likhitha</span></h1>
+        <h2 class="typing" data-aos="fade-up" data-aos-duration="1200"></h2>
+        <a href="#projects" class="btn" data-aos="zoom-in" data-aos-delay="400">See My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 data-aos="fade-right">About Me</h2>
+        <p data-aos="fade-left" data-aos-delay="200">
+            I am a student passionate about learning web development. I love creating clean and interactive websites while improving my skills every day.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 data-aos="fade-up">My Skills</h2>
+        <div class="skills-list">
+            <div class="skill" data-aos="fade-right" data-aos-delay="100">
+                <p>HTML</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-delay="200">
+                <p>CSS</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 60%;"></div>
+                </div>
+            </div>
+            <div class="skill" data-aos="fade-right" data-aos-delay="300">
+                <p>JavaScript</p>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 50%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 data-aos="zoom-in">Projects</h2>
+        <div class="project-grid">
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Sample Portfolio</h3>
+                <p>A simple personal portfolio created using HTML, CSS & JS.</p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Landing Page</h3>
+                <p>A clean and modern landing page layout.</p>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Calculator UI</h3>
+                <p>A basic calculator interface built using HTML, CSS & JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <p>You can reach me at:</p>
+        <p><strong>likhithagowd77@gmail.com</strong></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 M. Likhitha | All Rights Reserved</p>
+    </footer>
+
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init({ once: true });</script>
+
+</body>
+</html>
